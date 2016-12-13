@@ -1,0 +1,109 @@
+
+.cbp-fwslider {
+    margin: 0;
+    max-width: 290px;
+    min-height: 206px;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+	border:1px solid #d4d4d4;
+	border-radius:8px;
+}
+.cbp-fwslider h2 {
+    border-bottom: 1px solid #d4d4d4;
+    margin: 0;
+    padding: 5px 20px; font-size:21px; font-weight:normal; color:#242424; text-align:center;
+}
+.cbp-fwslider ul {
+	margin: 0;
+	padding: 20px;
+	list-style-type: none;
+
+}
+
+.cbp-fwslider ul li {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0);
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.cbp-fwslider ul li > a,
+.cbp-fwslider ul li > div {
+	display: block;
+	text-align: left;
+	outline: none;
+}
+
+/*.cbp-fwslider ul li > a img {
+	border: none;
+	display: block;
+	margin: 0 auto;
+	max-width: 75%;
+}*/
+.cbp-fwslider ul li > a img {
+	border: none;
+	display: block;
+	margin: 0;
+	width: 71px;
+	height:71px; float:left;
+}
+.text{float:right; width:72%;}
+.text h5{margin:0px; color:#019fe9; font-weight:normal; font-size:16px;}
+.text p{font-size:13px; margin:10px 0px;}
+.text a{background:#dfdfdd; padding:5px 10px; border-radius:6px; color:#000; text-decoration:none; font-size:14px;}
+.cbp-fwslider nav span {
+    cursor: pointer;
+    font-size: 0;
+    height: 42px;
+    margin-top: 70px;
+    position: absolute;
+    top: 45%;
+    width: 24px;
+}
+.cbp-fwslider nav span.cbp-fwprev{background: url(../images/prev.jpg) no-repeat;}
+.cbp-fwslider nav span.cbp-fwnext{background: url(../images/next.jpg) no-repeat;}
+
+
+.cbp-fwslider nav span.cbp-fwnext {
+	right: 0px;
+}
+
+.cbp-fwslider nav span.cbp-fwprev {
+	left: 0px;
+}
+
+.cbp-fwdots {
+	position: absolute;
+	bottom: 0px;
+	white-space: nowrap;
+	text-align: center;
+	width: 100%;
+	display:none;
+}
+
+.cbp-fwdots span {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: #ddd;
+	margin: 4px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.cbp-fwdots span:hover {
+	background: #999;
+}
+
+.cbp-fwdots span.cbp-fwcurrent {
+	background: #47a3da;
+	box-shadow: 0 0 0 2px #47a3da;
+	-webkit-transition: box-shadow 0.2s ease-in-out;
+	-moz-transition: box-shadow 0.2s ease-in-out;
+	transition: box-shadow 0.2s ease-in-out;
+}
